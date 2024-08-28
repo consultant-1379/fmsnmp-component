@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE CommonAAUModel SYSTEM "CommonAAU.dtd">
+<CommonAAUModel>
+
+	<AlarmSupervision>
+		<SourceTypeAS SourceType="EFWS">
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.126.3.16.0.1">
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.1" AttributeName="efwsdate_time"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.3" AttributeName="efwsalarmPerceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.4" AttributeName="efwsalarmEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.5" AttributeName="efwsalarmProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.2" AttributeName="efwsalarmResource"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.6" AttributeName="efwsalarmDescription"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.7" AttributeName="efwsalarmAdditionalInfo"/>				
+					<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="efwsdate_time"/>
+					<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="efwsalarmPerceivedSeverity2"/>
+          <AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="efwsalarmProbableCause2"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.126.3.16.0.2">
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.1" AttributeName="efwsdate_time"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.3" AttributeName="efwsalarmPerceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.4" AttributeName="efwsalarmEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.5" AttributeName="efwsalarmProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.2" AttributeName="efwsalarmResource"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.6" AttributeName="efwsalarmDescription"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.126.3.16.1.7" AttributeName="efwsalarmAdditionalInfo"/>					
+					<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="efwsdate_time"/>
+					<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="efwsalarmPerceivedSeverity2"/>
+          <AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="efwsalarmProbableCause2"/>
+
+			</AlarmTrapOidAS>
+					
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.2294.3.0.100">
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.4" AttributeName="efwsMessageText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.5" AttributeName="efwsRSTErrorCode"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.6" AttributeName="efwsExErrorCode"/>
+			</AlarmTrapOidAS>
+			
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.2294.3.0.200">
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.4" AttributeName="efwsMessageText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.5" AttributeName="efwsRSTErrorCode"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.6" AttributeName="efwsExErrorCode"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.2294.3.0.300">	
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.4" AttributeName="efwsMessageText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.5" AttributeName="efwsRSTErrorCode"/>
+				<AttributeOid OID=".1.3.6.1.4.1.2294.3.1.6" AttributeName="efwsExErrorCode"/>
+		  </AlarmTrapOidAS>
+		  
+		  <AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.3">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.4">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.5">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.6">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.7">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.8">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.9">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.10">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.11">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.2.70.101.2.0.12">
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.42.0.2">
+			  <AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.1" AttributeName="mgcNotificationId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.2" AttributeName="mgcEventTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.4" AttributeName="mgcPerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.5" AttributeName="mgcprobableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.6" AttributeName="mgcProblemText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.8" AttributeName="mgcNotificationAddInfo"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.9" AttributeName="mgcNotificationAddText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.10" AttributeName="mgcChangedOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.11" AttributeName="mgcStateChange"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.12" AttributeName="mgcAttributeChangeInteger"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.13" AttributeName="mgcOctetString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.14" AttributeName="mgcAttributeChangeString"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.15" AttributeName="mgcNewOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.16" AttributeName="mgcAttributeChangeOid"/>
+				<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.2.1.17" AttributeName="mgcCorrelatedNotifications"/>
+			</AlarmTrapOidAS>
+		  
+		  
+		  
+		</SourceTypeAS>	  
+	</AlarmSupervision>
+		
+	<Synchronization>
+		<SourceTypeSync SourceType="EFWS">
+		<MibTypeSync MibType="IfMib">
+			<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="efwsifName"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="efwsifIndex"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="efwsifDesc"/>
+		    <AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="efwsifNumber"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="efwsifAdminStatus"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="efwsifOperStatus"/>
+			</MibTypeSync>
+			<MibTypeSync MibType="AlarmIRP">
+			<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.1.3.4.1.1" AttributeName="efwssunPlatLogRecordAlarmPerceivedSeverity"/>
+		  <AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.1.3.4.1.2" AttributeName="efwssunPlatLogRecordAlarmProbableCause"/>
+			<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.1.3.4.1.3" AttributeName="efwssunPlatLogRecordAlarmSpecificProblem"/>
+			<AttributeOid OID=".1.3.6.1.4.1.42.2.70.101.1.3.4.1.4" AttributeName="efwssunPlatLogRecordAlarmRepairAction"/>
+			</MibTypeSync>
+     </SourceTypeSync>
+	</Synchronization>	
+		
+		
+	<FMAlarmTable>
+		<SourceTypeAT SourceType="EFWS">
+		
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Cold restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A coldStart trap signifies that the sending protocol entity is reinitializing itself such that the agent's configuration or the protocol entity implementation may be altered."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warm restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A warmStart trap signifies that the sending protocol entity is reinitializing itself such that neither the agent configuration nor the protocol entity implementation is altered."/>
+			</AlarmTrapOidAT>
+				<!-- IF MIB -->
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.3">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.4">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.5">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Authentication Failure"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Authentication Failure"/>
+				<EventType AttributeName="EventType" Value="18"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An authenticationFailure trap signifies that the sending protocol entity is the addressee of a protocol message that is not properly authenticated."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.6">
+				<SpecificProblem AttributeName="SpecificProblem" Value="egpNeighborLoss"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An egpNeighborLoss trap signifies that an EGP neighbor for whom the sending protocol entity was an EGP peer has been marked down and the peer relationship no longer obtains."/>
+			</AlarmTrapOidAT>
+		
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.126.3.16.0.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="MPE Alarm Set"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="MPE Alarm Set"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.126.3.16.0.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="MPE Alarm Set"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="MPE Alarm Cleared"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.2294.3.0.100">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Critical Trap"/>
+				<ProbableCause AttributeName="ProbableCause" Value="1151"/>
+				<EventType AttributeName="EventType" Value="16"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CRITICAL"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.2294.3.0.200">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Info Trap"/>
+				<ProbableCause AttributeName="ProbableCause" Value="1151"/>
+				<EventType AttributeName="EventType" Value="16"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+			</AlarmTrapOidAT>
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.2294.3.0.300">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warning Trap"/>
+				<ProbableCause AttributeName="ProbableCause" Value="1151"/>
+				<EventType AttributeName="EventType" Value="16"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+			</AlarmTrapOidAT>	
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an object, indicated by sunPlatNotificationObject,has been created as defined in X.721, sec. 13.6"/>
+			</AlarmTrapOidAT>	
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an object, indicated by sunPlatNotificationObject,has been deleted as defined in X.721, sec. 13.6"/>
+			</AlarmTrapOidAT>	
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.3">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that a communication alarm has occurred as defined in X.721,sec. 13.6"/>
+			</AlarmTrapOidAT>	
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.4">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an environment alarm has occurred as defined in X.721, sec. 13.3"/>
+			</AlarmTrapOidAT>	
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.5">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="4"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an equipment alarm has occurred as defined in X.721, sec. 13.3"/>
+			</AlarmTrapOidAT>	
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.6">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="10"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an processing alarm has occurred as defined in X.721, sec. 13.3"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.7">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that a state change has occurred on the state attribute  identified by sunPlatNotificationChangedOID. As states are  enumerations of type INTEGER, the old and new states are passed in  sunPlatNotificationOldInteger and sunPlatNotificationNewInteger  respectively"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.8">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that attribute identified by sunPlatNotificationChangedOID has changed from the Value in sunPlatNotificationOldInteger to the Value in sunPlatNotificationNewInteger.This is as defined in X.721, sec. 13.1"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.9">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that attribute identified by sunPlatNotificationChangedOID has changed from the Value in sunPlatNotificationOldString to the  Value in sunPlatNotificationNewString.This is as defined in X.721, sec. 13.1"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.10">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that attribute identified by sunPlatNotificationChangedOID  has changed from the Value in sunPlatNotificationOldOID to the Value in sunPlatNotificationNewOID.his is as defined in X.721, sec. 13.1"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.11">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="11"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that a quality of service alarm has occurred as defined in  X.721, sec 13.11"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.2.70.101.2.0.12">
+				<SpecificProblem AttributeName="SpecificProblem" Value="SUN Platform Alarm"/>
+				<ProbableCause AttributeName="ProbableCause" Value="577"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="Indicates that an alarm of an indeterminate type has occurred"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.42.0.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Hardware agent stopped"/>
+				<ProbableCause AttributeName="ProbableCause" Value="579"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="The SUN hardware agent has been stopped"/>
+			</AlarmTrapOidAT>
+						
+			
+		</SourceTypeAT>
+	</FMAlarmTable>
+	
+</CommonAAUModel>

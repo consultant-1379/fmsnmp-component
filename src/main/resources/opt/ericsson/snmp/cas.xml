@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE CommonAAUModel SYSTEM "CommonAAU.dtd">
+<CommonAAUModel>
+
+	<AlarmSupervision>
+		<SourceTypeAS SourceType="CAS">
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.3">
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="casifIndex"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="casifAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="casifOperStatus"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.4">
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="casifIndex"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="casifAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="casifOperStatus"/>
+				</AlarmTrapOidAS>
+		
+		
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.2994.4.1.2.1">
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.1" AttributeName="casPlat_alarmId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.2" AttributeName="casPlat_alarmMOClass"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.3" AttributeName="casPlat_alarmEventTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.4" AttributeName="casPlat_alarmEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.5" AttributeName="casPlat_alarmProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.6" AttributeName="casPlat_alarmPerceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.7" AttributeName="casPlat_alarmAdditionalText"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.16" AttributeName="casPlat_alarmTypeText"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.2994.4.1.2.2">
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.1" AttributeName="casPlat_alarmId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.2" AttributeName="casPlat_alarmMOClass"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.3" AttributeName="casPlat_alarmEventTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.4" AttributeName="casPlat_alarmEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.5" AttributeName="casPlat_alarmProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.6" AttributeName="casPlat_alarmPerceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.7" AttributeName="casPlat_alarmAdditionalText"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.16" AttributeName="casPlat_alarmTypeText"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.2994.4.1.2.3">
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.1" AttributeName="casPlat_logId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.2" AttributeName="casPlat_logManagedObject"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.3" AttributeName="casPlat_logEventTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.4" AttributeName="casPlat_logEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.5" AttributeName="casPlat_logProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.6" AttributeName="casPlat_logPerceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.7" AttributeName="casPlat_logAdditionalText"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.11.1.15" AttributeName="casPlat_logTypeText"/>
+				</AlarmTrapOidAS>
+				
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.2994.5.1.1">
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.2" AttributeName="casCtm_alarmMo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.1" AttributeName="casCtm_alarmTimeStamp"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.3" AttributeName="casCtm_alarmSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.4" AttributeName="casCtm_alarmEventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.5" AttributeName="casCtm_alarmProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.6" AttributeName="casCtm_alarmSpecificProblem"/>
+				</AlarmTrapOidAS>	
+					
+					
+					
+				
+		</SourceTypeAS>	  
+	</AlarmSupervision>
+	
+	<!-- This part will be handled when we go with implemntation of the synchronization componenet -->
+	<Synchronization>
+		<SourceTypeSync SourceType="CAS">
+		<MibTypeSync MibType="AlarmIRP">
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.1" AttributeName="casPlat_alarmId"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.2" AttributeName="casPlat_alarmMOClass"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.3" AttributeName="casPlat_alarmEventTime"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.4" AttributeName="casPlat_alarmEventType"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.5" AttributeName="casPlat_alarmProbableCause"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.6" AttributeName="casPlat_alarmPerceivedSeverity"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.7" AttributeName="casPlat_alarmAdditionalText"/>	
+		<AttributeOid OID=".1.3.6.1.4.1.2994.4.1.1.1.1.16" AttributeName="casPlat_alarmTypeText"/>
+		
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.2" AttributeName="casCtm_alarmMO"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.1" AttributeName="casCtm_alarmTimeStamp"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.3" AttributeName="casCtm_alarmSeverity"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.4" AttributeName="casCtm_alarmEventType"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.5" AttributeName="casCtm_alarmProbableCause"/>
+		<AttributeOid OID=".1.3.6.1.4.1.2994.5.4.1.6" AttributeName="casCtm_alarmSpecificProblem"/>
+		</MibTypeSync>
+		<MibTypeSync MibType="IfMib">
+		<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="casifname"/>
+		<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="casifIndex"/>
+		<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="casifdesc"/>
+		<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="casifadminstatus"/>
+		<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="casifoperstatus"/>
+        </MibTypeSync>
+     </SourceTypeSync>
+	</Synchronization>
+	
+	<FMAlarmTable>
+		<SourceTypeAT SourceType="CAS">
+		
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Cold restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A coldStart trap signifies that the sending protocol entity is reinitializing itself such that the agent's configuration or the protocol entity implementation may be altered."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warm restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A warmStart trap signifies that the sending protocol entity is reinitializing itself such that neither the agent configuration nor the protocol entity implementation is altered."/>
+			</AlarmTrapOidAT>
+				<!-- IF MIB -->
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.3">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.4">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.5">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Authentication Failure"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Authentication Failure"/>
+				<EventType AttributeName="EventType" Value="18"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An authenticationFailure trap signifies that the sending protocol entity is the addressee of a protocol message that is not properly authenticated."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.6">
+				<SpecificProblem AttributeName="SpecificProblem" Value="egpNeighborLoss"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An egpNeighborLoss trap signifies that an EGP neighbor for whom the sending protocol entity was an EGP peer has been marked down and the peer relationship no longer obtains."/>
+			</AlarmTrapOidAT>
+		
+		</SourceTypeAT>
+	</FMAlarmTable>
+
+</CommonAAUModel>

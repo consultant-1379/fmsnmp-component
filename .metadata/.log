@@ -1,0 +1,32 @@
+!SESSION 2013-08-06 14:27:41.051 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.017
+!MESSAGE System property http.proxyHost is not set but should be www-proxy.ericsson.se.
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.033
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.048
+!MESSAGE System property https.proxyHost is not set but should be www-proxy.ericsson.se.
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.048
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.064
+!MESSAGE System property https.proxyHost is not set but should be www-proxy.ericsson.se.
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-06 14:28:07.299
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY se.ericsson.cade.eclipse.tools.common_prefs 1 0 2013-08-06 14:28:30.341
+!MESSAGE Log entries recorded when reading preference files
+!SUBENTRY 1 se.ericsson.cade.eclipse.tools.common_prefs 1 0 2013-08-06 14:28:30.341
+!MESSAGE Preferences from resource http://eecs.rnd.ki.sw.ericsson.se/updates/E4E/preferences/common_preferences_init_lmitor_1.epf read successfully.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-08-06 14:28:36.985
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.google.gdt.eclipse.managedapis.impl.ManagedApiChecker$ManagedApiCheckerJob

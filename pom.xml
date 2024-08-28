@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ericsson.nms</groupId>
+		<artifactId>integration</artifactId>
+		<version>15.2.0.20</version>
+	</parent>
+	<groupId>com.ericsson.nms.mediation.component</groupId>
+	<artifactId>fmsnmp-component</artifactId>
+	<packaging>jar</packaging>
+	<version>2.0.1-SNAPSHOT</version>
+	<name>Mediation Component</name>
+	<properties>
+		<version.log4j>1.2.16</version.log4j>
+		<version.slf4j>1.6.4</version.slf4j>
+	</properties>
+	<!-- <repositories> <repository> <id>prototype</id> <url>https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/repositories/prototype</url> 
+		</repository> </repositories> -->
+	<dependencyManagement>
+		<dependencies>
+			<!-- For Datapersistence-api -->
+			<!-- <dependency> <groupId>com.ericsson.oss.itpf.sdk</groupId> <artifactId>sdk-modeled-eventbus-api</artifactId> 
+				<scope>provided</scope> </dependency> <dependency> <groupId>com.ericsson.nms.mediation</groupId> 
+				<artifactId>core-mediation-models-api</artifactId> <scope>provided</scope> 
+				</dependency> -->
+
+			<!-- <dependency> <groupId>com.ericsson.nms.mediation.models</groupId> 
+				<artifactId>fm-mediation-model</artifactId> <version>1.0.56</version> <scope>provided</scope> 
+				</dependency> -->
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.sdk</groupId>
+				<artifactId>sdk-eventbus-api</artifactId>
+				<version>1.0.13</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.sdk</groupId>
+				<artifactId>sdk-eventbus-jms</artifactId>
+				<version>1.8.1</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.oss.itpf.sdk</groupId>
+				<artifactId>sdk-recording</artifactId>
+				<version>1.7.2</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ericsson.nms.mediation</groupId>
+				<artifactId>mediation-sdk-bom</artifactId>
+				<version>RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${version.log4j}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.adventnet</groupId>
+			<artifactId>AdventNetEJB</artifactId>
+			<version>4.0.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.adventnet</groupId>
+			<artifactId>AdventNetLogging</artifactId>
+			<version>4.0.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.adventnet</groupId>
+			<artifactId>AdventNetSnmp</artifactId>
+			<version>4.0.7</version>
+		</dependency>
+		<dependency>
+
+			<groupId>org.adventnet</groupId>
+
+			<artifactId>AdventNetSnmpV3USM</artifactId>
+
+			<version>4.0.7</version>
+
+		</dependency>
+
+
+
+
+
+		<!-- Model Service Dependacny -->
+
+		<!-- <dependency> <groupId>com.ericsson.nms.mediation.models</groupId> 
+			<artifactId>fm-mediation-model</artifactId> <version>1.0.38-SNAPSHOT</version> 
+			</dependency> -->
+
+		<dependency>
+			<groupId>com.ericsson.nms.mediation.models</groupId>
+			<artifactId>fm-mediation-model</artifactId>
+			<version>1.0.79</version>
+		</dependency>
+		<!-- JBoss EJB 3 -->
+
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>com.ericsson.oss.mediation</groupId> <artifactId>mediationservice</artifactId> 
+			<version>1.0.1-SNAPSHOT</version> </dependency> -->
+
+		<!-- <dependency> <groupId>com.ericsson.nms.mediation</groupId> <artifactId>core-mediation-models-api</artifactId> 
+			</dependency> -->
+
+		<dependency>
+			<groupId>com.ericsson.nms.mediation</groupId>
+			<artifactId>core-mediation-models-api</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+
+		<dependency>
+
+			<groupId>com.ericsson.oss.itpf.sdk</groupId>
+
+			<artifactId>sdk-eventbus-api</artifactId>
+
+			<version>1.0.13</version>
+
+		</dependency>
+
+
+
+		<!-- For Datapersistence-api -->
+
+		<dependency>
+
+			<groupId>com.ericsson.oss.itpf.sdk</groupId>
+
+			<artifactId>sdk-modeled-eventbus-api</artifactId>
+
+			<version>1.0.13</version>
+
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.as</groupId>
+			<artifactId>jboss-as-naming</artifactId>
+			<version>7.1.2.Final</version>
+		</dependency>
+
+		<dependency>
+
+			<groupId>javax.jms</groupId>
+
+			<artifactId>jms</artifactId>
+
+			<version>1.1</version>
+
+			<scope>provided</scope>
+
+		</dependency>
+
+
+
+		<!-- <dependency> <groupId>javax.jms</groupId> <artifactId>jms-api</artifactId> 
+			<version>1.1-rev-1</version> </dependency> -->
+
+	</dependencies>
+
+
+
+	<build>
+
+		<pluginManagement>
+
+			<plugins>
+
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+
+				<plugin>
+
+					<groupId>org.eclipse.m2e</groupId>
+
+					<artifactId>lifecycle-mapping</artifactId>
+
+					<version>1.0.0</version>
+
+					<configuration>
+
+						<lifecycleMappingMetadata>
+
+							<pluginExecutions>
+
+								<pluginExecution>
+
+									<pluginExecutionFilter>
+
+										<groupId>
+
+											com.ericsson.maven.plugins
+
+										</groupId>
+
+										<artifactId>
+
+											rstate-maven-plugin
+
+										</artifactId>
+
+										<versionRange>
+
+											[1.0,)
+
+										</versionRange>
+
+										<goals>
+
+											<goal>rstate</goal>
+
+										</goals>
+
+									</pluginExecutionFilter>
+
+									<action>
+
+										<ignore />
+
+									</action>
+
+								</pluginExecution>
+
+							</pluginExecutions>
+
+						</lifecycleMappingMetadata>
+
+					</configuration>
+
+				</plugin>
+
+
+
+			</plugins>
+
+		</pluginManagement>
+
+	</build>
+
+	<scm>
+
+		<tag>fmsnmp-component-1.0.1</tag>
+
+	</scm>
+
+</project>
+
